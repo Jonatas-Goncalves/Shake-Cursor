@@ -1,0 +1,14 @@
+[Unit]
+Description=Shake to find cursor utility for X11
+Documentation=man:shake-cursor(1)
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/shake-cursor
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target
