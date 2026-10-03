@@ -42,6 +42,7 @@ systemctl --user enable --now x11-shake-cursor.service
 Shake mouse fast = big cursor.<br>
 Stop shaking = normal cursor.
 <br>
+<br>
 ## Credits:
 Developed by [Jonatas Gonçalves](https://www.linkedin.com/in/jonatasgon%C3%A7alves/)
 <a href="https://www.linkedin.com/in/jonatasgon%C3%A7alves/">
