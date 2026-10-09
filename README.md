@@ -1,6 +1,10 @@
-# Shake Cursor
+# Shake-Cursor: Instant Pointer Location
 
-Shake-cursor is a background utility for X11 environments that detects rapid mouse shaking and temporarily scales up the pointer. It features dynamic desktop theme matching, high-resolution rendering to prevent pixelation, and integrates seamlessly via a user-level systemd service.
+<p align="center">
+  <img src="assets/shake-cursor-banner.png" alt="Shake-Cursor — Instant Pointer Location" width="100%">
+</p>
+
+Shake-Cursor is a lightweight background utility for X11 that helps you instantly locate your mouse pointer like wayland and macOS by detecting rapid mouse movements and temporarily enlarging the cursor. Designed for modern desktops and large, high-resolution displays, including 4K monitors, it uses high-resolution rendering to keep the enlarged pointer sharp and clear, minimizing pixelation. It also supports dynamic cursor theme matching and integrates seamlessly with your desktop session through a user-level systemd service.
 
 ## Requirements
 
